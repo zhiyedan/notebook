@@ -1,7 +1,7 @@
 # Jupyter 使用
 ## 类型
 - df['time'] = df.time.astype('int')
-- 
+
 ## 作图
 - 概率图
 ```
@@ -13,7 +13,9 @@ radviz(df, 'col_name')
 
 ```
 - `plt.legend(loc='best')`用来显示col name 图例；刻印文字
-- 
+
+## 排序
+- temp1_df.sort_values(by='time')
 
 ## 行列选择
 - df.loc(df['ap_mac'] in ['mac1','mac2']) 出现问题？？？？？？？？？？？？？？？？？？
